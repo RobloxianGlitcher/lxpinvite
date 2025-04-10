@@ -1,0 +1,35 @@
+/* Main styles for layout */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2f3136;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #202225;
+    padding: 1rem 2rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
